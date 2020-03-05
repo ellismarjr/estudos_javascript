@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body onload="load()">
     <h1>JavaScript</h1>
+    <button type="button" onclick="botao()">Clique aqui</button>
+    <p id="agradecimento" onclick="redirecionar()"></p>
+    <p onmouseout="trocar(this)" onmouseover="mouseover(this)">Passe o mouse aqui</p>
+    <select onchange="funcaoChange(this)">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
 </body>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/array.js"></script>
